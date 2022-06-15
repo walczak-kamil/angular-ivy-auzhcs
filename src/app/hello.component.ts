@@ -9,12 +9,12 @@ export class HelloComponent {
   tasks: Array<string> = [];
   task: string = '';
 
-  addTask() {
-    this.tasks.push(this.task);
-  }
-  deleteTask(idx: number) {
-    this.tasks = this.tasks.filter((task, index) => {
-      return index !== idx;
-    });
-  }
+  // addTask() {
+  //   this.tasks.push(this.task);
+  // }
+  // deleteTask(idx: number) {
+  //   this.tasks = this.tasks.filter((task, index) => {
+  //     return index !== idx;
+  //   });
+  // }
 }
