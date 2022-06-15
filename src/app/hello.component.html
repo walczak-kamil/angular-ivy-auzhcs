@@ -3,6 +3,6 @@
 <div>
   <ul *ngFor="let i of tasks; let i = index">
     <li>{{ i }}</li>
-    <button (click)="deleteTask()" [disabled]="!task">Usuń zadanie</button>
+    <button (click)="deleteTask(i)" [disabled]="!task">Usuń zadanie</button>
   </ul>
 </div>
